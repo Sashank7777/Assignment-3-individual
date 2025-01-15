@@ -1,0 +1,216 @@
+
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('Dog.JPG');
+    background-size: cover;
+    background-position: center;
+    background-blur: 5px; }
+
+}
+.about-content {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.about-content h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.about-content p {
+    font-size: 18px;
+    line-height: 1.6;
+}z
+.portfolio-gallery {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.portfolio-gallery h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
+}
+
+
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 80px 0;
+}
+
+.gallery-item {
+    width: calc(33.33% - 20px); 
+    margin-bottom: 20px;
+    border: 2px solid #333;
+    overflow: hidden;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+
+header img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+
+nav {
+    background-color: #444;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+.intro {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.intro h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.intro p {
+    font-size: 18px;
+}
+
+.contact-content {
+    text-align: center;
+    padding: 80px 0;
+}
+
+.contact-content h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.contact-content p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.contact-form {
+    text-align: center;
+    padding: 40px 0;
+}
+
+#contactForm {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#contactForm label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#contactForm input[type="text"],
+#contactForm input[type="email"],
+#contactForm textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#contactForm textarea {
+    resize: vertical;
+}
+
+#contactForm input[type="submit"] {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#contactForm input[type="submit"]:hover {
+    background-color: #555;
+}
+
+.map-container {
+    text-align: center;
+    padding: 80px 0;
+}
+
+.map-container iframe {
+    max-width: 100%;
+    height: 400px;
+}
+
+
+
+footer {
+    background-color: #444;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}

@@ -1,0 +1,244 @@
+/* ... previous styles ... */
+
+/* Main Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #008a5a;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #008a5a;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #008a5a;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Main Content Styles */
+.about-content {
+    text-align: center;
+    padding: 80px 0;
+}
+
+.about-content h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.about-content p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #008a5a;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: bottom;
+    bottom: 0;
+    width: 100%;
+}
+
+
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #008a5a;
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('Mountain.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: 5px; }
+
+}
+.about-content {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.about-content h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+about-content {
+    text-align: center;
+    padding: 80px 0;
+}
+
+.about-content h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.about-content p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.profile-image {
+    margin: 40px auto; 
+    border: 5px solid #ddd;
+    display: block; 
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #f9f9f9;
+    text-align: center; 
+    max-width: 100%; 
+}
+
+.profile-image img {
+    border: 5px solid #333; 
+    border-radius: 10px; 
+    width: 100%; 
+    max-width: 300px; 
+    height: auto; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: block; 
+    margin: 20px auto;
+}
+
+
+
+
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 80px 0;
+}
+
+.gallery-item {
+    width: calc(33.33% - 20px); 
+    margin-bottom: 20px;
+    border: 2px solid #333;
+    overflow: hidden;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+
+header img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+
+nav {
+    background-color: #444;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+.intro {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.intro h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.intro p {
+    font-size: 18px;
+}
+.profile-image {
+    margin: 40px 0;
+    border: 5px solid #ddd;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #f9f9f9;
+    max-width: 100%; 
+}
+
+.profile-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+footer {
+    background-color: #444;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: bottom;
+    bottom: 0;
+    width: 100%;
+}
